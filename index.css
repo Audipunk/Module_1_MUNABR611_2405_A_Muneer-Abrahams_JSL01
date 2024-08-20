@@ -37,6 +37,7 @@ button:hover {
 }
 
 .valid {
+    {
     color: #008000;
     animation: bounce 0.5s;
 }
@@ -46,7 +47,7 @@ button:hover {
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
 }
-
+}
 
 .invalid {
     color: #ff4500;
