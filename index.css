@@ -54,7 +54,6 @@ button:hover {
     animation: shake 0.5s;
 }
 
-}
 
 @keyframes shake {
     0% { transform: translateX(0); }
