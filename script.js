@@ -1,6 +1,6 @@
 function validateSyntax() {
     let input = document.getElementById('petInput').value;
-    
+    // Validation logic goes here
     let result = ''; // Placeholder for validation result
     const regex = /^pet_\d{4}[^\d_]+$/; // RegEx to validate the input
 
