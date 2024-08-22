@@ -37,18 +37,16 @@ button:hover {
 }
 
 .valid {
-    {
     color: #008000;
     animation: bounce 0.5s;
 }
-}
-{
+
 @keyframes bounce {
     0% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
 }
-}
+
 
 .invalid {
     color: #ff4500;
