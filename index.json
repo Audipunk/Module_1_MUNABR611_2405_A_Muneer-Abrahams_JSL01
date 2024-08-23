@@ -1,0 +1,54 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "githubPullRequests.pullBranch": "never",
+    "files.associations": {
+        "*.js": "javascript",
+        "*.json": "json"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "liveServer.settings.fullReload": true,
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ],
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.port": 0,
+    "launch": {
+        "configurations": [
+        
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+        ]
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.colorTheme": "Abyss",
+    "editor.renderWhitespace": "none",
+    "git.enableSmartCommit": true,
+    "debug.javascript.autoAttachFilter": "smart",
+    "workbench.iconTheme": "vscode-icons",
+    "npm.enableRunFromFolder": true,
+    "npm.exclude": "",
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    },
+    "terminal.integrated.enableImages": true,
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\ADMIN\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\ADMIN\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+}
