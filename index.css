@@ -48,13 +48,11 @@ button:hover {
     100% { transform: translateY(0); }
 }
 
-
 .invalid {
     color: #ff4500;
     border: #ff4500;
     animation: shake 0.5s;
 }
-
 
 @keyframes shake {
     0% { transform: translateX(0); }
